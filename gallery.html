@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gallery</title>
+	<style>
+    	body
+    	{
+    		background-image: url(image/wallpaper_gal.jpg);
+    	}
+    	div{
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		flex-wrap: wrap;
+    	}
+    	div img {
+    		width: 400px;
+    		height: 300px;
+    		border: 2px solid darkkhaki;
+    		border-radius: 13px;
+    		box-shadow: 4px 7px 7px 0px darkkhaki;
+    		cursor: pointer;
+    		margin: 10px;
+    		transition: 400ms;
+    	}
+    	div img:hover{
+    		filter: grayscale(1);
+    		transform: scale(1.05);
+    	}
+
+    	div{
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		flex-wrap: wrap;
+    	}
+    	div video {
+    		width: 400px;
+    		height: 300px;
+    		border: 2px solid darkkhaki;
+    		border-radius: 13px;
+    		box-shadow: 4px 7px 7px 0px darkkhaki;
+    		cursor: pointer;
+    		margin: 10px;
+    		transition: 400ms;
+    	}
+    	div video:hover{
+    		filter: grayscale(1);
+    		transform: scale(1.05);
+    	}
+    	h1
+{
+	color: black;
+	font-family: Papyrus;
+	font-size: 50px;
+	text-align: center;
+	border: 5px solid indianred;
+}
+    </style>
+</head>
+<body>
+	<h1>Gallery</h1>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<div>
+		<img src="image/galery1.jpg" alt="galery1">
+		<img src="image/galery2.jpg" alt="galery2">
+		<img src="image/galery3.jpg" alt="galery3">
+		<img src="image/galery4.jpg" alt="galery4">
+		<img src="image/galery5.jpg" alt="galery5">
+		<img src="image/galery6.jpg" alt="galery6">
+		<img src="image/galery7.jpg" alt="galery7">
+		<img src="image/galery8.jpg" alt="galery8">
+		<img src="image/galery9.jpg" alt="galery9">
+		<img src="image/galery10.jpg" alt="galery10">
+		<img src="image/galery11.jpg" alt="galery11">
+		<img src="image/galery12.jpg" alt="galery12">
+		
+	<video controls>
+		<source src="video/video_1.mp4" type="video/mp4">
+			Your browser does not support video element
+	</video> 
+	<video controls>
+		<source src="video/video_2.mp4" type="video/mp4">
+			Your browser does not support video element
+	</video> 
+	<video controls>
+		<source src="video/video_3.mp4" type="video/mp4">
+			Your browser does not support video element
+	</video> 
+	</div>
+
+	<a href="index.html" target="blank" title="HOMEPAGE"><img src="button/button.png" alt="This is image of button" style="width: 200px; height: 100px; position: absolute; top: 23%; left: 50%; transform: translate(-50%,-10%);"></a>
+
+</body>
+</html>
